@@ -1,0 +1,113 @@
+#header{  
+  min-height: 40px;
+    background: orange;
+    width: 100%;
+    height: 15%;
+   /* margin-bottom: 5%;*/
+}
+#menuIcon
+{
+	background-image: url(../images/menu_nav.png);
+    width: 15%;
+    margin-right: 10px;
+    background-position: left;
+    background-size: 65%;
+    height: 40px;
+    background-repeat: no-repeat;
+	float: left;
+}
+#title{
+
+width: 80%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+   
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.rowDisplay{
+    width: 90%;
+    margin-top: 5%;
+    margin: 5% auto;
+	padding: 5%;
+}
+.tableCell{
+	width: 50%;
+    padding-bottom: 2%;
+   
+    border-bottom: 1px solid lightgray;
+}
+.floatLeft{
+	float: left;
+}
+.floatRight{
+	float:right;
+}
+/*#buttonsWrapper {
+  margin-bottom: 11%;
+    width: 100%;
+    text-align: center;
+    height: 8%;
+    max-height: 50px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    display: -moz-box;
+    -moz-box-pack: center;
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    display: flex;
+    justify-content: center;
+	margin-top: 10%;
+}
+
+
+#buttonsWrapper :nth-child(2) {
+    margin-right: 15px;
+   
+}*/
+
+#homeBtn, #generateQRBtn  {
+     background: #002D72;
+    padding: 5px 20px;
+    border: none;
+    color: #fff;
+    /* cursor: pointer; */
+    border-radius: 4px;
+    /* outline: none; */
+    /* display: -webkit-box; */
+    /* -webkit-box-align: center; */
+    /* -webkit-box-pack: center; */
+    display: -moz-box;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    font-size: 79%;
+    height: 70%;
+    min-height: 30px;
+    max-height: 50px;
+    /* margin-left: 2%; */
+    margin: 10% auto;
+}
+#QRCode{
+	width: 50%;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+#Code{
+	position:absolute; width:90%;
+}
+
+#code-image
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}

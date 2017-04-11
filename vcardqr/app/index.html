@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="vcard-app" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>vCard</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../core/css/main.css">
+</head>
+<body>
+ <div ng-include="'views/includes/header.html'"></div>
+ <div ui-view id="container" ng-app="vcard-app"></div>
+ 
+<script src="../libs/angular.js"></script>
+<script src="../libs/angular-ui-router.js"></script>
+ <script src="app.js"></script>
+  <!--<script src="../lib/angular-route.js"></script>-->
+	<script src="../core/settings/settings.module.js"></script>
+    <script src="../core/settings/settings.service.js"></script>
+    
+
+   <script src="scripts/account details/homeview.js"></script>
+   <script src="scripts/generate qr/qrview.js"></script>
+	<script src="scripts/add payee/AddPayee.js"></script>
+
+
+<script type="text/javascript" src="../libs/jquery.js"></script>
+	<!--  Libraries for generating QRCode-->
+	<script type="text/javascript" src="../libs/qrcode1.js"></script>
+	<script type="text/javascript" src="../libs/jquery.qrcode.js"></script>
+	<!--  Libraries for decoding QRCode-->
+	<script type="text/javascript" src="../libs/grid.js"></script>
+	<script type="text/javascript" src="../libs/version.js"></script>
+	<script type="text/javascript" src="../libs/detector.js"></script>
+	<script type="text/javascript" src="../libs/formatinf.js"></script>
+	<script type="text/javascript" src="../libs/errorlevel.js"></script>
+	<script type="text/javascript" src="../libs/bitmat.js"></script>
+	<script type="text/javascript" src="../libs/datablock.js"></script>
+	<script type="text/javascript" src="../libs/bmparser.js"></script>
+	<script type="text/javascript" src="../libs/datamask.js"></script>
+	<script type="text/javascript" src="../libs/rsdecoder.js"></script>
+	<script type="text/javascript" src="../libs/gf256poly.js"></script>
+	<script type="text/javascript" src="../libs/gf256.js"></script>
+	<script type="text/javascript" src="../libs/decoder.js"></script>
+	<script type="text/javascript" src="../libs/qrcode.js"></script>
+	<script type="text/javascript" src="../libs/findpat.js"></script>
+	<script type="text/javascript" src="../libs/alignpat.js"></script>
+	<script type="text/javascript" src="../libs/databr.js"></script>
+
+	
+</body>
+</html>

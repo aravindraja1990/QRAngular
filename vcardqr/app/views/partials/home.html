@@ -1,0 +1,24 @@
+<div id="content" ng-controller="accountDetails as acntDetail" data-ng-init="init()">
+<div class="rowDisplay">
+	<div class="tableCell floatLeft">AC/Type</div>
+	<div id="acntType" class="tableCell floatRight">{{listfield.type}}</div>
+</div>	
+<div class="rowDisplay">
+	<div class="tableCell floatLeft">AC/Number</div>
+	<div id="acntNo" class="tableCell floatRight">{{listfield.accountNo}}</div>
+</div>
+<div class="rowDisplay">
+	<div class="tableCell floatLeft">Branch Address</div>
+	<div id="branchAddress" class="tableCell floatRight">{{listfield.branch}}</div>
+</div>
+<div class="rowDisplay">
+	<div class="tableCell floatLeft">IFSC Code</div>
+	<div id="ifscCode"class="tableCell floatRight">{{listfield.ifscCode}}</div>
+</div>
+</div>
+<div id="buttonsWrapper">
+       
+        <div id="generateQRBtn" ui-sref="QR">Generate QR</div>
+        <div id="addPayee" ui-sref="AddPayee">Add Payee</div>
+      </div>
+</div>

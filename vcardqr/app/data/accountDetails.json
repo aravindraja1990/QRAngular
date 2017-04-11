@@ -1,0 +1,8 @@
+
+  {
+    "name": "User",
+    "accountNo": "123456",
+    "ifscCode": "abc123",
+    "branch": "xyz" ,
+    "type":"Savings"  
+  }
