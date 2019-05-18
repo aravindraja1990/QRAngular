@@ -1,2 +1,2 @@
 # QRAngular
-It is used for Scanning QR code and send data
+It is used for Scanning QR code using javascript library.
